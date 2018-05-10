@@ -30,7 +30,6 @@ function makeGrid() {
     playWithColors();
   }); // submit the grid into table
 
-
   function playWithColors(){
     $("td").on("dblclick", function(){
       $(this).css("background-color", "transparent");
