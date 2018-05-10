@@ -1,9 +1,8 @@
-$(function(){
-// variable table and colorPicker are avialable for every fucntion
-  let table = $("#pixel_canvas");
-  let colorPicker = $("#colorPicker");
+// Select table and size 
+const table = $("#pixel_canvas");
+const colorPicker = $("#colorPicker");
 
-  function makeGrid(row, col) { 
+function makeGrid() { 
   
   let row = $("#input_height").val();
   let col = $("#input_width").val();
@@ -46,5 +45,3 @@ $(function(){
     let color = $("#colorPicker").val();
     $(this).css("background-color", color);
   }); // submit the color into grid 
-
-}); // end of $ function 
