@@ -1,4 +1,4 @@
-// Select table and size 
+// Sselect table and size 
 const table = $("#pixel_canvas");
 const colorPicker = $("#colorPicker");
 

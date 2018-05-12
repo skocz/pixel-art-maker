@@ -15,9 +15,7 @@ body, html {
 
 }
 
-h2 {
-    margin: 1em 0 0.28em;
-}
+h2 { margin: 1em 0 0.28em; }
 
 .grid-size {
     margin-top: 0.5em;
@@ -28,16 +26,15 @@ form > p {
     display: inline;
     font-size: 12px;
 }
-.grid { 
-    font-size: 12px;
- }
+
+.grid { font-size: 12px; }
 
 .gridbtn {
     font-size: 13px;
     border: 1px solid red;
  }
-.grid-input { padding-left: 4px; 
-}
+
+.grid-input { padding-left: 4px; }
 
 .pick-color{ font-size: 24px; }
 
@@ -45,6 +42,7 @@ form > p {
     width: 40px;
     height: 30px; 
 }
+
 .design-canvas { font-size: 18px; }
 
 table,
@@ -58,13 +56,9 @@ table {
     margin: 0 auto;
 }
 
-tr {
-    height: 40px;
-}
+tr { height: 20px; }
 
-td {
-    width: 40px;
-}
+td { width: 20px; }
 
 input[type=number] {
     width: 3em;
